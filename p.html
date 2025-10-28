@@ -1,62 +1,101 @@
-<!doctype html>
+q<!doctype html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=deveice-width initial-scale=1.0">
-		<title>SLAK</title>
-		<style>
-			:root{
-				--bg-l  : #FDF6E3;
-				--bg0-l : #FFFFFF;
-				--bg1-l : #FAF3E0;
-				--t-l   : #333333;
-				--a-l   : #B58900;
-				--l-l   : #268BD2;
-				--b-l   : #E0E0E0;
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- BUG: "deveice-width" misspelled -->
+<title>STAK</title>
+<style>
+:root{
+--bg-l:#FDF6E3;
+--bg0-l:#FFFFFF;
+--bg1-l:#FAF3E0;
+--t-l:#333333;
+--a-l:#B58900;
+--l-l:#268BD2;
+--b-l:#E0E0E0;
 
-				--bg-d  : #002B36;
-				--bg0-d : #0B3F4A;
-				--bg1-d : #1A1A1A;
-				--t-d   : #EEE8D5;
-				--a-d   : #859900;
-				--l-d   : #268BD2;
-				--b-d   : #073642;}
-			html{
-				scroll-behavior:smooth;}
-				text-color : var(--t-l);
-			header{
-				height : 60vh;
-				justify-content:center;
-				text-align:center;
-				display:flex;
-				flex-content:centered;
-				background-color: var(--bg0-l);}
-			main{
-				height : 180vh;}
-			footer{
-				height : 60vh;
-				background-color: var(--bg0-l);}
-		</style>
-		<script defer>
-		</script>
-	</head>
+--bg-d:#002B36;
+--bg0-d:#0B3F4A;
+--bg1-d:#1A1A1A;
+--t-d:#EEE8D5;
+--a-d:#859900;
+--l-d:#268BD2;
+--b-d:#073642;
+}
+html{
+scroll-behavior:smooth;
+}
+body{ 
+color:var(--t-d);
+background-color:var(--bg0-d);
+margin:0;
+}
+header{
+height:85vh;
+background-color:var(--bg-d);
+justify-content:center;
+text-align:center;
+align-items:center;
+display:flex;
+}
+main{
+height:180vh;
+text-align:center;
 
-	<body>
-		<header>
-			<section>
-				<h1>SLAK</h1>
-				<p>Official Board&Card Game</p>
-			</section>
-		</header>
-		<main>
-			<section>
-				-
-			</section>
-		</main>
-		<footer>
-			<section>
-				-
-			</section>
-		</footer>
-	</body>
+}
+footer{
+height:60vh;
+background-color:var(--bg-d);
+}
+</style>
+<script defer>
+</script>
+</head>
+<body>
+<header id="home">
+<section>
+<h1>STAK</h1>
+<p>Official Board&Card Game</p>
+</section>
+<section>
+<nav>
+<a href="#view">VIEW</a>
+<a href="#news">NEWS</a>
+</section>
+<section>
+<h2 id="view">VIEW</h2>
+<p></p>
+</section>
+<section>
+<h2 id="news">NEWS</h2>
+<p></p>
+</section>
+<section>
+<h3><a href="#down">Discover Us</a></h3>
+</section>
+</header>
+<main>
+<section>
+<nav>
+<a href="#see">SEE</a>
+<a href="#try">TRY</a>
+<a href="#set">SET</a>
+<nav>
+</section>
+<section>
+<h2 id="see">SEE</h2>
+</section>
+<section>
+<h2 id="try">TRY</h2>
+</section>
+<section>
+<h2 id="set">SET</h2>
+</section>
+</main>
+<footer id="down">
+<section>
+<h3><a href="#home">Return Home</a></h3>
+</section>
+</footer>
+</body>
 </html>
